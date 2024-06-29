@@ -9,9 +9,12 @@ router.post("/data/:key", async (req, res) => {
   const value = req.body.value;
 
   const newData = { key, value };
-  // Write data to database
+
   // Write data to cache
   await setDataInRedis(key, JSON.stringify(newData));
+
+  // Write data to database
+  // database[key] = value;
 
   res.send({ message: "Data written to cache and database", data: newData });
 });
