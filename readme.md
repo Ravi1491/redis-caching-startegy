@@ -76,6 +76,12 @@ This repository demonstrates the implementation of various caching strategies in
   - Check the cache for data.
   - If the data is not in the cache, the cache retrieves data from the database and stores it in the cache.
 
+## External Links:
+
+- https://medium.com/@mmoshikoo/cache-strategies-996e91c80303
+- https://blog.bytebytego.com/p/top-caching-strategies
+- https://www.youtube.com/watch?v=RtOyBwBICRs&t=633s
+
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes or improvements.
